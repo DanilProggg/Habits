@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	background: var(--bs-gray-200) !important;
+	min-height:100vh;
+}
+
+
+//Правки руссификации календаря
+full-calendar .fc-col-header-cell-cushion, full-calendar .fc-toolbar-title:first-letter {
+	text-transform:capitalize ;
+}
+//Для чисел и дней недели
+.fc-daygrid-day-number,.fc-col-header-cell-cushion{
+	text-decoration: none;
+}

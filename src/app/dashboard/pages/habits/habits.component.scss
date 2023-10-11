@@ -1,0 +1,18 @@
+
+
+.work-area__area-item{
+	background: white;
+}
+
+app-calendar,app-tasks-area{
+	background: white;
+}
+
+app-tasks-area{
+    display:flex;
+    flex-direction: column;
+
+    padding:16px;
+}
+
+
